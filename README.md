@@ -26,6 +26,25 @@ Sending something to telegram and telegram sents a better version back to the se
 ## telegram and google calendar
 Connecting the api in telegram, for certain conditions add it to your calendar.
 
+<details>
+  <summary>Click here for Instructions</summary>
+  
+  ### Integrating the Google Calendar API with the Telegram Bot API
+  1.  Click on [Pipedream](https://pipedream.com/apps/google-calendar/integrations/telegram-bot-api) for popular ways to connect google calendar and Telegram bot.
+  2. Select Create Trigger > New messages update (instant)
+  3. follow the instructions on creating a new Telegram bot
+  <img src=" https://user-images.githubusercontent.com/70894669/197770418-e5f304da-af90-430e-9eba-071a88b32282.gif" width = 40% />
+     * Qux
+
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
+
+
 ## weather API
 Connecting the API to your node mcu, The weather API gives conditions to the eps32 and with lights it will show if the weather is good enough for camera weather.
 
