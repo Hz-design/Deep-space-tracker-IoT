@@ -5,6 +5,20 @@ Dit is een technische manual over het IoT product "Deep Space Tracker". Hierin w
 *Door Hong Zhou*
 
 # Inhoudsopgave
+- 
+
+## Automizing Tripod through telegram
+
+## Voice to commando's 
+voice to telegram to excecuting a program
+
+## News api showing on telegramn feed
+
+## telegram Hive mind
+
+## telegram and google calendar
+
+## weather API
 
 
-## 
+
