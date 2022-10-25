@@ -77,4 +77,24 @@ It would stay on this screen for a long time so it seems like it's not working p
 ## weather API
 Connecting the API to your node mcu, The weather API gives conditions to the eps32 and with lights it will show if the weather is good enough for camera weather.
 
+<details>
+  <summary>ESP8266 Weather Forecaster</summary>
+
+### Esp8266 Weather Forecaster
+[Source](https://randomnerdtutorials.com/esp8266-weather-forecaster/)
+In this tutorial we'll use Open weather map API to generate lights on our leds. The goal is to eventually send the output back to Telegram.
+
+#### Required parts
+- [ESP8266](https://makeradvisor.com/tools/esp8266-esp-12e-nodemcu-wi-fi-development-board/)
+- [4x LEDs](https://makeradvisor.com/tools/3mm-5mm-leds-kit-storage-box/)
+- [4x Resistors](https://makeradvisor.com/tools/resistors-kits/)
+- [Breadboard](https://makeradvisor.com/tools/mb-102-solderless-breadboard-830-points/)
+- [Jumper wires](https://makeradvisor.com/tools/jumper-wires-kit-120-pieces/)
+- [Adafruit LED](https://www.adafruit.com/product/1138?length=2)
+  
+  1. Follow the steps at the [Source](https://randomnerdtutorials.com/esp8266-weather-forecaster/)Document. 
+  2. API KEY: fb374c0f8a61e457e8aacae341bede30
+
+
+  </details>
 
