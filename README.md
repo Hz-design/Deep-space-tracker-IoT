@@ -33,8 +33,11 @@ Connecting the api in telegram, for certain conditions add it to your calendar.
   1.  Click on [Pipedream](https://pipedream.com/apps/google-calendar/integrations/telegram-bot-api) for popular ways to connect google calendar and Telegram bot.
   2. Select Create Trigger > New messages update (instant)
   3. follow the instructions on creating a new Telegram bot
-  <img src=" https://user-images.githubusercontent.com/70894669/197770418-e5f304da-af90-430e-9eba-071a88b32282.gif" width = 40% />
-     * Qux
+  <details>
+    <summary>Click here for BotFather Tutorial</summary>
+    ![Telegram_BotFather](https://user-images.githubusercontent.com/70894669/197771369-c418bc88-1e8a-4ebd-bc9a-a3110d57a4d7.gif)
+    If the GIF is not loading please [click here](https://user-images.githubusercontent.com/70894669/197771086-c3f289c5-c1d3-4e34-ba07-e4cae678d201.gif)
+      </details>
 
   ### Some Code
   ```js
