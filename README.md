@@ -64,16 +64,17 @@ Connecting the api in telegram, for certain conditions add it to your calendar.
 ### Create Google Calendar Events From New Telegram Messages
 [source](https://business-automated.medium.com/create-google-calendar-events-from-new-telegram-messages-4f5930f224aa)
   
-  1. Follow the instructions described at the [source](https://business-automated.medium.com/create-google-calendar-events-from-new-telegram-messages-4f5930f224aa)
-  2. <img width="1301" alt="Schermafbeelding 2022-10-25 om 15 32 22" src="https://user-images.githubusercontent.com/70894669/197787686-15bfcb16-a106-41c1-a1dd-49a92accd6e6.png">
+1. Follow the instructions described at the [source](https://business-automated.medium.com/create-google-calendar-events-from-new-telegram-messages-4f5930f224aa)
+2. 
+<img width="1301" alt="Schermafbeelding 2022-10-25 om 15 32 22" src="https://user-images.githubusercontent.com/70894669/197787686-15bfcb16-a106-41c1-a1dd-49a92accd6e6.png">
 3. After filling out the information: 
-  <img width="443" alt="Schermafbeelding 2022-10-25 om 15 35 19" src="https://user-images.githubusercontent.com/70894669/197788165-9c31cd8c-b204-4a90-be81-5ac365241d79.png">
-  <img width="1301" alt="Schermafbeelding 2022-10-25 om 15 32 22" src="https://user-images.githubusercontent.com/70894669/197788202-0b9df2cd-f636-46d8-9ceb-c5468cea0337.png">
+ <img width="443" alt="Schermafbeelding 2022-10-25 om 15 35 19" src="https://user-images.githubusercontent.com/70894669/197788165-9c31cd8c-b204-4a90-be81-5ac365241d79.png">
+ <img width="1301" alt="Schermafbeelding 2022-10-25 om 15 32 22" src="https://user-images.githubusercontent.com/70894669/197788202-0b9df2cd-f636-46d8-9ceb-c5468cea0337.png">
 It would stay on this screen for a long time so it seems like it's not working properly.
-  4. After that I tried deleting the inputs and it couldn't read the parameters:
-  <img width="803" alt="Schermafbeelding 2022-10-25 om 15 36 24" src="https://user-images.githubusercontent.com/70894669/197788533-6d1d3148-6823-467e-97ca-a2825c59216b.png">
+4. After that I tried deleting the inputs and it couldn't read the parameters:
+<img width="803" alt="Schermafbeelding 2022-10-25 om 15 36 24" src="https://user-images.githubusercontent.com/70894669/197788533-6d1d3148-6823-467e-97ca-a2825c59216b.png">
 
-  So I stopped with this method and went on.
+So I stopped with this method and went on.
 
 </details>
 
@@ -84,7 +85,7 @@ Connecting the API to your node mcu, The weather API gives conditions to the eps
   <summary>ESP8266 Weather Forecaster</summary>
 
 ### Esp8266 Weather Forecaster
-[Source](https://randomnerdtutorials.com/esp8266-weather-forecaster/)
+>[Source](https://randomnerdtutorials.com/esp8266-weather-forecaster/)
 In this tutorial we'll use Open weather map API to generate lights on our leds. The goal is to eventually send the output back to Telegram.
 
 #### Required parts
@@ -95,7 +96,7 @@ In this tutorial we'll use Open weather map API to generate lights on our leds. 
 - [Jumper wires](https://makeradvisor.com/tools/jumper-wires-kit-120-pieces/)
 - [Adafruit LED](https://www.adafruit.com/product/1138?length=2)
   
-1. Follow the steps at the [Source](https://randomnerdtutorials.com/esp8266-weather-forecaster/)Document. 
+1. Follow the steps at the [Source](https://randomnerdtutorials.com/esp8266-weather-forecaster/) Document. 
 2. After completing the steps above, we're now going to install Arduino Json Library. follow these [steps](https://randomnerdtutorials.com/esp8266-weather-forecaster/#:~:text=Installing%20the%20ArduinoJson%20library)
 
 >Error After uploading a The code on my board I get the following error
@@ -115,5 +116,5 @@ After uninstalling the newer version (6.0+) and installing the .zip file the err
 
 http://api.openweathermap.org/data/2.5/forecast?q=veenendaal,NL&APPID=fb374c0f8a61e457e8aacae341bede30&mode
 
-  </details>
+</details>
 
