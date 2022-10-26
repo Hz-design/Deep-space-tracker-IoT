@@ -15,6 +15,9 @@ Activitating inputs from sensors after that reading it in serial monitor and exc
 
 More difficult: Reading inputs from sensors, sending it too telegram and after that Telegram sends something automatically back to the ESP32.
 
+<details>
+  <summary> Button as voice 
+
 ## News api showing on telegramn feed
 Connecting API in Node MCU, When a certain condition has met show it in the Telegram feed.
 
@@ -92,9 +95,25 @@ In this tutorial we'll use Open weather map API to generate lights on our leds. 
 - [Jumper wires](https://makeradvisor.com/tools/jumper-wires-kit-120-pieces/)
 - [Adafruit LED](https://www.adafruit.com/product/1138?length=2)
   
-  1. Follow the steps at the [Source](https://randomnerdtutorials.com/esp8266-weather-forecaster/)Document. 
-  2. API KEY: fb374c0f8a61e457e8aacae341bede30
+1. Follow the steps at the [Source](https://randomnerdtutorials.com/esp8266-weather-forecaster/)Document. 
+2. After completing the steps above, we're now going to install Arduino Json Library. follow these [steps](https://randomnerdtutorials.com/esp8266-weather-forecaster/#:~:text=Installing%20the%20ArduinoJson%20library)
 
+>Error After uploading a The code on my board I get the following error
+
+<img width="1613" alt="Schermafbeelding 2022-10-26 om 12 08 17" src="https://user-images.githubusercontent.com/70894669/198000265-df900776-7880-41e4-9c4f-01b06f747fd9.png">
+
+• Apparantly my ArduinoJson version need to be updated, download this [file](https://github.com/bblanchon/ArduinoJson/archive/v5.13.5.zip) unpack your file rename it to: 'ArduinoJson' and overwrite every other version. After that make it a .zip file and include it in your Arduino library again, re-open your Arduino-Ide and the upload should be good now.
+
+
+<img width="758" alt="Schermafbeelding 2022-10-26 om 12 24 06" src="https://user-images.githubusercontent.com/70894669/198002646-6271905c-4d0c-450d-8631-0c65ce6b444d.png">
+• jsonBuffer still has a problem, I have installed the newest version but I can't fix the problem. jsonBuffer is a ArduinoJson version 5.0 class, it doesn't work on ArduinoJson version 6.0 - 6.19.3. 
+After uninstalling the newer version (6.0+) and installing the .zip file the error has been fixed!
+
+3. Now the code works withouth any problems it's time to combine the settings with a Adafruit led strip because I don't have the smaller lights.
+
+4.
+
+http://api.openweathermap.org/data/2.5/forecast?q=veenendaal,NL&APPID=fb374c0f8a61e457e8aacae341bede30&mode
 
   </details>
 
