@@ -465,7 +465,7 @@ Now select the color of your wish and change the value's `(000,0,000)`. You can 
 The for loop should be looking like this:
     
 <details>
-    <summary> Open for the code </summary>
+    <summary> Open for the void loop </summary>
     
 ```
 void loop() {
@@ -508,6 +508,14 @@ delay(delayval); // Another delay, to make the presentation consistent.
 ```
   
 </details>
+  
+> Error occured the colors are not correctly displayed
+  
+9. Change the code to `for(int i=1;i>-3;i--)` and start with the array from [0] to [3] instead of [0] to [4].
+
+### Implementing this code with Weather forecaster code
+  
+1. 
                         
 http://api.openweathermap.org/data/2.5/forecast?q=veenendaal,NL&APPID=fb374c0f8a61e457e8aacae341bede30&mode
 
