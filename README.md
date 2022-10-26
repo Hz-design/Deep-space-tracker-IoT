@@ -512,10 +512,20 @@ delay(delayval); // Another delay, to make the presentation consistent.
 > Error occured the colors are not correctly displayed
   
 9. Change the code to `for(int i=1;i>-3;i--)` and start with the array from [0] to [3] instead of [0] to [4].
+ 
+> Error the colors where still not correct
+10. Change the code `Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRBw + NEO_KHZ800);` into `Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ400);`.
 
 ### Implementing this code with Weather forecaster code
   
-1. 
+1. Changing the code `digitalWrite(rainLed,HIGH);
+      digitalWrite(clearLed,LOW);
+      digitalWrite(snowLed,LOW);
+      digitalWrite(hailLed,LOW); `
+  to `pixels.setPixelColor(rainLed, pixels.Color(0,0,255)); // Turning rainLed blue
+      pixels.setPixelColor(clearLed, pixels.Color(0,0,0)); // Turning clearLed off
+      pixels.setPixelColor(snowLed, pixels.Color(0,0,0)); // Turning snowLed off
+      pixels.setPixelColor(hailLed, pixels.Color(0,0,0)); // Turning hailLed off `
                         
 http://api.openweathermap.org/data/2.5/forecast?q=veenendaal,NL&APPID=fb374c0f8a61e457e8aacae341bede30&mode
 
