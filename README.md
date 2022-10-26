@@ -459,9 +459,12 @@ Now select the color of your wish and change the value's `(000,0,000)`. You can 
 - Yellow for **Hail**. `(255,255,0)`
     
 The for loop should be looking like this:
+    
 <details>
     <summary> Open for the code </summary>
-` void loop() {
+    
+```
+void loop() {
 
   for(int i=0;i<4;i++){ // Since each array has 10 LEDs, we are going to turn them sequentially on using this index.
 
@@ -498,7 +501,8 @@ delay(delayval); // Another delay, to make the presentation consistent.
  */
 
 }
-`
+```
+  
 </details>
                         
 http://api.openweathermap.org/data/2.5/forecast?q=veenendaal,NL&APPID=fb374c0f8a61e457e8aacae341bede30&mode
