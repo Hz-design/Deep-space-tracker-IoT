@@ -126,6 +126,7 @@ After uninstalling the newer version (6.0+) and installing the .zip file the err
 4. Follow these steps: (How to command Individual LEDS within an RGB led strip using neopixel library)[https://www.sensingthecity.com/tutorial-how-to-command-individual-leds-within-an-rgb-led-strip-using-neopixel-library/)
   
 <details>
+  
 ```
   /*
  * This tutorial is part of the course CPLN 571 - Sensing the City, at the University of Pennsylvania, taught by Dr. Allison Lassiter. It is also a part
