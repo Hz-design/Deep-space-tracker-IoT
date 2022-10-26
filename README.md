@@ -553,8 +553,8 @@ delay(delayval); // Another delay, to make the presentation consistent.
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ400);
 
 // Replace with your SSID and password details
-char ssid[] = "hz";        
-char pass[] = "hongzhou";   
+char ssid[] = "YOUR_SSID_NAME";        
+char pass[] = "PASSWORD_OF_SSID";   
 
 WiFiClient client;
 
@@ -562,12 +562,12 @@ WiFiClient client;
 const char server[] = "api.openweathermap.org";
 
 // Replace the next line to match your city and 2 letter country code
-String nameOfCity = "Veenendaal,NL"; 
+String nameOfCity = "PLACE,LANDCODE"; 
 // How your nameOfCity variable would look like for Lagos on Nigeria
 //String nameOfCity = "Lagos,NG"; 
 
 // Replace the next line with your API Key
-String apiKey = "b374c0f8a61e457e8aacae341bede30"; 
+String apiKey = "YOUR_API_KEY"; 
 
 String text;
 
@@ -575,10 +575,10 @@ int jsonend = 0;
 boolean startJson = false;
 int status = WL_IDLE_STATUS;
 
-int rainLed = 2;  // Indicates rain
-int clearLed = 3; // Indicates clear sky or sunny
-int snowLed = 4;  // Indicates snow
-int hailLed = 5;  // Indicates hail
+int rainLed = 0;  // Indicates rain
+int clearLed = 1; // Indicates clear sky or sunny
+int snowLed = 2;  // Indicates snow
+int hailLed = 3;  // Indicates hail
 
 
 
@@ -588,10 +588,7 @@ unsigned long lastConnectionTime = 10 * 60 * 1000;     // last time you connecte
 const unsigned long postInterval = 10 * 60 * 1000;  // posting interval of 10 minutes  (10L * 1000L; 10 seconds delay for testing)
 
 void setup() {
-  pinMode(clearLed, OUTPUT);
-  pinMode(rainLed, OUTPUT);
-  pinMode(snowLed, OUTPUT);
-  pinMode(hailLed, OUTPUT);
+  pixels.begin();
   Serial.begin(9600);
   
   text.reserve(JSON_BUFF_DIMENSION);
