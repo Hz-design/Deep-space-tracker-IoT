@@ -452,8 +452,11 @@ pixels.setPixelColor(PXL1[2], pixels.Color(255,255,0)); // array number 2 is yel
 pixels.setPixelColor(PXL1[3], pixels.Color(139,0,139)); // array number 1 is magenta
 pixels.setPixelColor(PXL1[4], pixels.Color(255,255,0)); // array number 2 is yellow `.
 
-Now select the color of your wish and change the value's `(000,0,000)`.
-
+Now select the color of your wish and change the value's `(000,0,000)`. You can select the colors of the tutorial earlier.
+- Blue for **Rain**.
+- Green for **Clear Sky**.
+- White for **Snow**.
+- Yellow for **Hail**.    
                         
 http://api.openweathermap.org/data/2.5/forecast?q=veenendaal,NL&APPID=fb374c0f8a61e457e8aacae341bede30&mode
 
