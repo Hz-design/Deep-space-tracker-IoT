@@ -5,15 +5,20 @@ This is a technical manual for the Internet of Things product "Deep Space Tracke
 *By Hong Zhou*
 
 ## What is a Deep Space Tracker?
-The deep space tracker is a smart tripod which helps the user capture, track or observe the deep space objects in the universe. Why it's an IoT? It reacts on voice commando's, You can get perfect camera setting from the hive mind feature, It can add obserable universe events to your google calendar, It's able to read the weather and tell the user how the weather is for today (is it good for shooting yes/no) and last but not least Automized tripod through the application. The user can select a object and the tripod will automatically locate the object and capture it with perfect settings for a certain amount of time.
+The deep space tracker is a smart tripod which helps the user capture, track or observe the deep space objects in the universe. Why it's an IoT? It reacts on voice commando's, You can get perfect camera setting from the hive mind feature, It can add obserable universe events to your google calendar, It's able to read the weather and tell the user how the weather is for today (is it good for shooting yes/no) and last but not least Automized tripod through the application. The user can select an object and the tripod will automatically locate the object and capture it with perfect settings for a certain amount of time.
 
 # Inhoudsopgave
-- 
+- Automizing Tripod through telegram
+- Voice to commands
+- News API showing on telegram feed
+- Adafruit Hive mind
+- Telegram and google calendar
+- Weather API
 
 ## Automizing Tripod through telegram
 Executing outputs from reading inputs in the serial monitor from telegram.
 
-## Voice to commando's 
+## Voice to commands 
 Activitating inputs from sensors after that reading it in serial monitor and excetuing a different output from node mcu.
 
 More difficult: Reading inputs from sensors, sending it too telegram and after that Telegram sends something automatically back to the ESP32.
@@ -23,7 +28,7 @@ More difficult: Reading inputs from sensors, sending it too telegram and after t
   
 </details>
 
-## News api showing on telegramn feed
+## News api showing on telegram feed
 Connecting API in Node MCU, When a certain condition has met show it in the Telegram feed.
 
 
