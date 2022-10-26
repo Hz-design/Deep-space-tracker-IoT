@@ -336,9 +336,12 @@ delay(delayval); // Another delay, to make the presentation consistent.
     ```
     
     </details>
+    
 
                         6. Now the code is flicking it's first and last Led. Time to change some settings. The reason why it was flicking was because I changed the 10 in 1 in this code ```for(int i=1;i>-10;i--){```.
                         7. Now I reïntegrated it and it works like normal changing the light every 800 ticks.
+  
+  
   <details>
     <summary> Code renewd </summary>
     
