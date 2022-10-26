@@ -453,10 +453,53 @@ pixels.setPixelColor(PXL1[3], pixels.Color(139,0,139)); // array number 1 is mag
 pixels.setPixelColor(PXL1[4], pixels.Color(255,255,0)); // array number 2 is yellow `.
 
 Now select the color of your wish and change the value's `(000,0,000)`. You can select the colors of the tutorial earlier.
-- Blue for **Rain**.
-- Green for **Clear Sky**.
-- White for **Snow**.
-- Yellow for **Hail**.    
+- Blue for **Rain**. `(0,0,255)`
+- Green for **Clear Sky**. `(0,255,0)`
+- White for **Snow**. `(255,255,255)`
+- Yellow for **Hail**. `(255,255,0)`
+    
+The for loop should be looking like this:
+<details>
+    <summary> Open for the code </summary>
+` void loop() {
+
+  for(int i=0;i<4;i++){ // Since each array has 10 LEDs, we are going to turn them sequentially on using this index.
+
+/*
+ * Notice that the lines below are just setting up the color of each pixel. This is not yet the command to turn them on. The 
+ * pixels.setPixelColor command is a very easy way to define the color of each pixel. The syntax is:
+ * pixels.setPixelColor(x, pixels.Color(R,G,B)), where:
+ * x = the pixel you want to define a color for. In this example, we are using the arrays we created for the 6 control groups, hence the PXL1[i] input.
+ * R,G,B = the values of red, green, and blue on a RGB scale.
+ */
+ 
+pixels.setPixelColor(PXL1[1], pixels.Color(0,0,255)); // array number 1 is blue for Rain
+pixels.setPixelColor(PXL1[2], pixels.Color(255,255,0)); // array number 2 is yellow for Hail
+pixels.setPixelColor(PXL1[3], pixels.Color(0,255,0)); // array number 3 is green for Clear Sky
+pixels.setPixelColor(PXL1[4], pixels.Color(255,255,255)); // array number 4 is white for Snow
+
+pixels.show(); // Okay, we have informed which colors we want. Now, it is time to flip the switch and let the magic happen. The pixels.show() command does that
+
+delay(delayval); // Let's add a little delay here. So we can appreciate more the dynamic lighting we can do with this simple and cheap components.
+}
+
+    for(int i=1;i>-4;i--){  // Now, we are going to turn them off sequentially, so we can create a pulsing dynamic for each group
+pixels.setPixelColor(PXL1[1], pixels.Color(0,0,0)); // array number 1 is blue for Rain
+pixels.setPixelColor(PXL1[2], pixels.Color(0,0,0)); // array number 2 is yellow for Hail
+pixels.setPixelColor(PXL1[3], pixels.Color(0,0,0)); // array number 3 is green for Clear Sky
+pixels.setPixelColor(PXL1[4], pixels.Color(0,0,0)); // array number 4 is white for Snow
+
+pixels.show(); // Again, we have only defined the colors above, remember we must instruct the Arduino to show what we came up with.
+
+delay(delayval); // Another delay, to make the presentation consistent.
+
+/*
+ * You are done. Upload the code and see if you like it.
+ */
+
+}
+`
+</details>
                         
 http://api.openweathermap.org/data/2.5/forecast?q=veenendaal,NL&APPID=fb374c0f8a61e457e8aacae341bede30&mode
 
