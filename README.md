@@ -440,6 +440,10 @@ delay(delayval); // Another delay, to make the presentation consistent.
 }
     ```
 </details>
+    
+It should now look something like this:
+![IMG_0762](https://user-images.githubusercontent.com/70894669/198155080-096b8caf-366e-4a1d-a046-8c6e4c1c6f07.png)
+
                         
 http://api.openweathermap.org/data/2.5/forecast?q=veenendaal,NL&APPID=fb374c0f8a61e457e8aacae341bede30&mode
 
