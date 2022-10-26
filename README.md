@@ -1,8 +1,8 @@
 # Deep-space-tracker-IoT
 This is a technical manual for the Internet of Things product "Deep Space Tracker". In this document there'll be tutorials, how to implement internet in this object to reach a certain level of IoT. Things like communicating the application to the cellphone and more. In this document the focus are on occuring errors and trying different programs. The goals is to document the errors and maybe I am able to solve them, please continue to find out!
 
-*Laatste update 25 oktober 2022 13:20, work in progress*
-*Door Hong Zhou*
+*Last update 25th of October 2022 13:20, work in progress*
+*By Hong Zhou*
 
 # Inhoudsopgave
 - 
