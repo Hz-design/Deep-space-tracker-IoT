@@ -4,6 +4,9 @@ This is a technical manual for the Internet of Things product "Deep Space Tracke
 *Last update 25th of October 2022 13:20, work in progress*
 *By Hong Zhou*
 
+## What is a Deep Space Tracker?
+The deep space tracker is a smart tripod which helps the user capture, track or observe the deep space objects in the universe. Why it's an IoT? It reacts on voice commando's, You can get perfect camera setting from the hive mind feature, It can add obserable universe events to your google calendar, It's able to read the weather and tell the user how the weather is for today (is it good for shooting yes/no) and last but not least Automized tripod through the application. The user can select a object and the tripod will automatically locate the object and capture it with perfect settings for a certain amount of time.
+
 # Inhoudsopgave
 - 
 
