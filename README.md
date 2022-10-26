@@ -518,14 +518,14 @@ delay(delayval); // Another delay, to make the presentation consistent.
 
 ### Implementing this code with Weather forecaster code
   
-1. Changing the code `digitalWrite(rainLed,HIGH);
+1. Changing the code ```digitalWrite(rainLed,HIGH);
       digitalWrite(clearLed,LOW);
       digitalWrite(snowLed,LOW);
-      digitalWrite(hailLed,LOW); `
-  to `pixels.setPixelColor(rainLed, pixels.Color(0,0,255)); // Turning rainLed blue
+      digitalWrite(hailLed,LOW); ```
+   to  ```pixels.setPixelColor(rainLed, pixels.Color(0,0,255)); // Turning rainLed blue
       pixels.setPixelColor(clearLed, pixels.Color(0,0,0)); // Turning clearLed off
       pixels.setPixelColor(snowLed, pixels.Color(0,0,0)); // Turning snowLed off
-      pixels.setPixelColor(hailLed, pixels.Color(0,0,0)); // Turning hailLed off `
+      pixels.setPixelColor(hailLed, pixels.Color(0,0,0)); // Turning hailLed off ```
                         
 http://api.openweathermap.org/data/2.5/forecast?q=veenendaal,NL&APPID=fb374c0f8a61e457e8aacae341bede30&mode
 
