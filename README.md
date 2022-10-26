@@ -345,8 +345,10 @@ delay(delayval); // Another delay, to make the presentation consistent.
   
 <details>
     <summary> Code renewd </summary>
+  
     
-    ```
+```
+  
     /*
  * This tutorial is part of the course CPLN 571 - Sensing the City, at the University of Pennsylvania, taught by Dr. Allison Lassiter. It is also a part
  * of the final project of the class. It is based on the NeoPixel Library by AdaFruit.
