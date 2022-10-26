@@ -443,6 +443,16 @@ delay(delayval); // Another delay, to make the presentation consistent.
     
 It should now look something like this:
 ![IMG_0762](https://user-images.githubusercontent.com/70894669/198155080-096b8caf-366e-4a1d-a046-8c6e4c1c6f07.png)
+    
+8. We're going to change the code: `pixels.setPixelColor(PXL1[i], pixels.Color(139,0,139)); // array number 1 is magenta
+pixels.setPixelColor(PXL2[i], pixels.Color(255,255,0)); // array number 2 is yellow `
+                         
+into ` pixels.setPixelColor(PXL1[1], pixels.Color(139,0,139)); // array number 1 is magenta
+pixels.setPixelColor(PXL1[2], pixels.Color(255,255,0)); // array number 2 is yellow
+pixels.setPixelColor(PXL1[3], pixels.Color(139,0,139)); // array number 1 is magenta
+pixels.setPixelColor(PXL1[4], pixels.Color(255,255,0)); // array number 2 is yellow `.
+
+Now select the color of your wish and change the value's `(000,0,000)`.
 
                         
 http://api.openweathermap.org/data/2.5/forecast?q=veenendaal,NL&APPID=fb374c0f8a61e457e8aacae341bede30&mode
