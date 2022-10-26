@@ -239,7 +239,7 @@ delay(delayval); // Another delay, to make the presentation consistent.
 5. First I changed the code to see if it's working and if changing it to the right amount of LEDs.
 
 <details>
-  <summary>Open for the code</summary>
+  <summary> Open for the code </summary>
   
   ```
   /*
@@ -334,7 +334,6 @@ delay(delayval); // Another delay, to make the presentation consistent.
 
 }
     ```
-    
     </details>
     
 
@@ -438,8 +437,7 @@ delay(delayval); // Another delay, to make the presentation consistent.
 
 }
     ```
-    
-    </details>
+     </details>
                         
 http://api.openweathermap.org/data/2.5/forecast?q=veenendaal,NL&APPID=fb374c0f8a61e457e8aacae341bede30&mode
 
