@@ -16,7 +16,7 @@ Activitating inputs from sensors after that reading it in serial monitor and exc
 More difficult: Reading inputs from sensors, sending it too telegram and after that Telegram sends something automatically back to the ESP32.
 
 <details>
-  <summary> Button as voice 
+  <summary> Button as voice </summary>
 
 ## News api showing on telegramn feed
 Connecting API in Node MCU, When a certain condition has met show it in the Telegram feed.
@@ -47,14 +47,14 @@ Connecting the api in telegram, for certain conditions add it to your calendar.
 
   6. Press on the "plus" button and add a step
   7. Search voor Google calendar and look for the "update event" action.
-  8. Fill in your your own hongzhou826@gmail.com
+  8. Fill in your your own gmail.
   9. I made a new account on google to be an imposter for deep space tracker company.
   10. Made some appointments from for the calendar
   11. filled in the information
   <img width="725" alt="Schermafbeelding 2022-10-25 om 15 17 27" src="https://user-images.githubusercontent.com/70894669/197783487-f0e9bc4f-7faa-45a4-a11a-62fe38264d0d.png">
   12. got an error:
   <img width="1043" alt="Schermafbeelding 2022-10-25 om 15 16 01" src="https://user-images.githubusercontent.com/70894669/197783212-82a901fa-803e-4fd3-af52-c17b9a06360b.png">
-  13. Not continuing on this programm, on to the next programm.
+  13. Not continuing on this programm, on to the next programm. I couldn't understand what went wrong. Couldn't find anything helpful on google..
 <img width="695" alt="Schermafbeelding 2022-10-25 om 15 18 21" src="https://user-images.githubusercontent.com/70894669/197783700-495d4803-a7e6-425c-a855-a946b8ed90ad.png">
 </details>
 
