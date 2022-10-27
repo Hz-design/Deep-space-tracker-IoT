@@ -12,10 +12,8 @@ The deep space tracker is a smart tripod which helps the user capture, track or 
 - Voice to commands
 - News API showing on telegram feed
 - Adafruit Hive mind
-
-
-[Telegram and google calendar](## Telegram and google calendar)
-[Weather API](## weather API)
+- Telegram and google Calendar
+- Weather API
 
 ## Automizing Tripod through telegram
 Executing outputs from reading inputs in the serial monitor from telegram.
