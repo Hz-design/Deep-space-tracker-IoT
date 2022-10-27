@@ -89,7 +89,7 @@ So I stopped with this method and went on.
 Connecting the API to your node mcu, The weather API gives conditions to the eps32 and with lights it will show if the weather is good enough for camera weather.
 
 <details>
-  <summary>ESP8266 Weather Forecaster</summary>
+  <summary>ESP8266 Weather Forecaster (almost but failed)</summary>
 
 ### Esp8266 Weather Forecaster
 >[Source](https://randomnerdtutorials.com/esp8266-weather-forecaster/)
