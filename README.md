@@ -18,6 +18,8 @@ The deep space tracker is a smart tripod which helps the user capture, track or 
 ## Automizing Tripod through telegram
 Executing outputs in Arduino from reading Telegram inputs.
 
+[Check out this tutorial](https://github.com/Hz-design/IoT_eps32_Telegram_outputs-Arduino-IDE-)
+
 ## Voice to commands 
 Activitating inputs from sensors after that reading it in serial monitor and executing a different output from node mcu.
 
