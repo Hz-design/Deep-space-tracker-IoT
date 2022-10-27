@@ -780,6 +780,8 @@ This is the final result of Led strip, It displays 4 colors each representing di
 
 > The Arduino is only giving this kind of response after pressing RST button not much of a help..
 <img width="1630" alt="Schermafbeelding 2022-10-27 om 01 53 44" src="https://user-images.githubusercontent.com/70894669/198160056-65b39941-a271-4276-9e84-05e8b983b675.png">
+  
+I couldn't find a clear solution so this is where it stops sadly..
 
 http://api.openweathermap.org/data/2.5/forecast?q=veenendaal,NL&APPID=fb374c0f8a61e457e8aacae341bede30&mode
 
