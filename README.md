@@ -23,20 +23,16 @@ Activitating inputs from sensors after that reading it in serial monitor and exc
 
 More difficult: Reading inputs from sensors, sending it too telegram and after that Telegram sends something automatically back to the ESP32.
 
-<details>
-  <summary> Button as voice </summary>
-  
-</details>
 
-## News api showing on telegram feed
+## News API showing on telegram feed
 Connecting API in Node MCU, When a certain condition has met show it in the Telegram feed.
 
 
-## telegram Hive mind
+## Telegram Hive mind
 Sending something to telegram and telegram sents a better version back to the serial monitor.
 
 
-## telegram and google calendar
+## Telegram and google calendar
 Connecting the api in telegram, for certain conditions add it to your calendar.
 
 <details>
