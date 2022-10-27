@@ -16,21 +16,16 @@ The deep space tracker is a smart tripod which helps the user capture, track or 
 - Weather API
 
 ## Automizing Tripod through telegram
-Executing outputs from reading inputs in the serial monitor from telegram.
+Executing outputs in Arduino from reading Telegram inputs.
 
 ## Voice to commands 
-Activitating inputs from sensors after that reading it in serial monitor and excetuing a different output from node mcu.
-
-More difficult: Reading inputs from sensors, sending it too telegram and after that Telegram sends something automatically back to the ESP32.
-
+Activitating inputs from sensors after that reading it in serial monitor and executing a different output from node mcu.
 
 ## News API showing on telegram feed
 Connecting API in Node MCU, When a certain condition has met show it in the Telegram feed.
 
-
 ## Telegram Hive mind
 Sending something to telegram and telegram sents a better version back to the serial monitor.
-
 
 ## Telegram and google calendar
 Connecting the api in telegram, for certain conditions add it to your calendar.
