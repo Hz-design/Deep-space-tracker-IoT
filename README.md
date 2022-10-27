@@ -116,7 +116,7 @@ After uninstalling the newer version (6.0+) and installing the .zip file the err
 
 3. Now the code works withouth any problems it's time to combine the settings with a Adafruit led strip because I don't have the smaller lights.
 
-4. Follow these steps: (How to command Individual LEDS within an RGB led strip using neopixel library)[https://www.sensingthecity.com/tutorial-how-to-command-individual-leds-within-an-rgb-led-strip-using-neopixel-library/)
+4. Follow these steps: [How to command Individual LEDS within an RGB led strip using neopixel library](https://www.sensingthecity.com/tutorial-how-to-command-individual-leds-within-an-rgb-led-strip-using-neopixel-library/)
   
 <details>
   <summary> The code of commanding the individual LEDs </summary>
